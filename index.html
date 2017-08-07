@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" href="../Lesson 3. Header part/libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="media.css">
-	<link rel="stylesheet" href="fonts.css">
-
+	
 </head>
 <body>
 	<header>
@@ -22,16 +22,16 @@
 						</button>
 
 						<a href="index.html" class="navbar-brand logo">
-							<img src="../Lesson 3. Header part/img/logo.png" alt="logo">
+							<img src="img/logo.png" alt="logo">
 						</a>
 					</div>
 					<div class="collapse navbar-collapse navbar-right" id="top_menu">
 						<ul class="menu">
-							<li><a href="" herf="#">link</a></li>
-							<li><a href="" herf="#">link</a></li>
-							<li><a href="" herf="#">link</a></li>
-							<li><a href="" herf="#">link</a></li>
-							<li><a href="" herf="#">link</a></li>
+							<li><a href="#features">FEATURES</a></li>
+							<li><a href="#works">WORKS</a></li>
+							<li><a href="#team">OUR TEAM</a></li>
+							<li><a href="#adres">TESTIMONIALS</a></li>
+							<li><a href="#download">DOWNLOAD</a></li>
 						</ul>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 					<div class="title_block">
 						<h1>Your Favorite One Page Multi Purpose Template</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae tempora, voluptatum! Sint quod laboriosam incidunt?</p>
-						<button class="my_btn btn_md">Find Out More</button>
+						<button class="my_btn btn_md" data-toggle="modal" data-target="#dlModal">Find Out More</button>
 					</div>
 				</div>
 			</div>
@@ -53,11 +53,12 @@
 </header>
 
 <section class="params_s">
+	<a name="features"></a>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
+					<i class="fa fa-pencil" aria-hidden="true"></i>				
 					<h3>Easilly castomised</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
@@ -65,40 +66,40 @@
 
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
-					<h3>Easilly castomised</h3>
+					<i class="fa fa-television" aria-hidden="true"></i>					
+					<h3>Responsive REady</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
 			</div>
 
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
-					<h3>Easilly castomised</h3>
+					<i class="fa fa-lightbulb-o" aria-hidden="true"></i>					
+					<h3>Modern Design</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
 			</div>
 
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
-					<h3>Easilly castomised</h3>
+					<i class="fa fa-cogs" aria-hidden="true"></i>					
+					<h3>Clean Code</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
 			</div>
 
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
-					<h3>Easilly castomised</h3>
+					<i class="fa fa-briefcase" aria-hidden="true"></i>					
+					<h3>Ready to Ship</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
 			</div>
 
 			<div class="col-md-4 col-sm-6">
 				<div class="param_block">
-					<span class="glyphicon glyphicon-pencil"></span>					
-					<h3>Easilly castomised</h3>
+					<i class="fa fa-cloud-download" aria-hidden="true"></i>					
+					<h3>Download for Free</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat, beatae. Labore harum rem repellendus, placeat repudiandae pariatur earum dignissimos! Rem qui laudantium aut nesciunt eligendi libero nihil nulla obcaecati.</p>
 				</div>
 			</div>
@@ -108,6 +109,7 @@
 </section>
 
 <section class="works_s">
+	<a name="works"></a>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3 col-sm-6 p0">
@@ -118,7 +120,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-1.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-1.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -130,7 +132,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-2.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-2.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -142,7 +144,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-3.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-3.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -154,7 +156,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-4.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-4.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -166,7 +168,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-5.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-5.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -178,7 +180,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-6.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-6.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -190,7 +192,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-7.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-7.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 
@@ -202,7 +204,7 @@
 							<p>some description</p>
 						</div>
 					</div>
-					<img src="../Lesson 3. Header part/img/work-8.jpg" class="img-responsive" alt="work-1">
+					<img src="img/work-8.jpg" class="img-responsive" alt="work-1">
 				</div>
 			</div>
 		</div>
@@ -210,11 +212,12 @@
 </section>
 
 <sectiom class="team_s">
+	<a name="team"></a>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
 				<div class="tem_item">
-					<img src="../Lesson 3. Header part/img/team-1.jpg" class="img-responsive" alt="team">
+					<img src="img/team-1.jpg" class="img-responsive" alt="team">
 					<h4>Ruth Woods</h4>
 					<span>founder ceo</span><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis pariatur officiis accusantium molestias sequi commodi modi incidunt similique, consequatur a facere illo tempora, harum necessitatibus, eveniet aliquam maiores soluta temporibus!</p>
@@ -234,9 +237,9 @@
 
 			<div class="col-md-3 col-sm-6">
 				<div class="tem_item">
-					<img src="../Lesson 3. Header part/img/team-2.jpg" class="img-responsive" alt="team">
-					<h4>Ruth Woods</h4>
-					<span>founder ceo</span><br>
+					<img src="img/team-2.jpg" class="img-responsive" alt="team">
+					<h4>Timothy Reed</h4>
+					<span>Co-Founder, Developer</span><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis pariatur officiis accusantium molestias sequi commodi modi incidunt similique, consequatur a facere illo tempora, harum necessitatibus, eveniet aliquam maiores soluta temporibus!</p>
 					<div class="team_btns">
 						<button href="#" class="soc_btn_grey">
@@ -254,9 +257,9 @@
 
 			<div class="col-md-3 col-sm-6">
 				<div class="tem_item">
-					<img src="../Lesson 3. Header part/img/team-3.jpg" class="img-responsive" alt="team">
-					<h4>Ruth Woods</h4>
-					<span>founder ceo</span><br>
+					<img src="img/team-3.jpg" class="img-responsive" alt="team">
+					<h4>Victoria Valdez</h4>
+					<span>UI Designer</span><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis pariatur officiis accusantium molestias sequi commodi modi incidunt similique, consequatur a facere illo tempora, harum necessitatibus, eveniet aliquam maiores soluta temporibus!</p>
 					<div class="team_btns">
 						<button href="#" class="soc_btn_grey">
@@ -274,9 +277,9 @@
 
 			<div class="col-md-3 col-sm-6">
 				<div class="tem_item">
-					<img src="../Lesson 3. Header part/img/team-4.jpg" class="img-responsive" alt="team">
-					<h4>Ruth Woods</h4>
-					<span>founder ceo</span><br>
+					<img src="img/team-4.jpg" class="img-responsive" alt="team">
+					<h4>Beverly Little</h4>
+					<span>Data Scientist</span><br>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis pariatur officiis accusantium molestias sequi commodi modi incidunt similique, consequatur a facere illo tempora, harum necessitatibus, eveniet aliquam maiores soluta temporibus!</p>
 					<div class="team_btns">
 						<button href="#" class="soc_btn_grey">
@@ -294,7 +297,9 @@
 		</div>
 	</div>
 </sectiom>
+
 <section class="download">
+	<a name="download"></a>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
@@ -308,6 +313,7 @@
 	</div>
 </section>
 <footer>
+	<a name="adres"></a>
 	<div class="main_footer">
 		<div class="container">
 			<div class="row">
@@ -381,8 +387,8 @@
 
 
 
-<script src="../Lesson 3. Header part/libs/jquery/jquery-2.1.4.min.js"></script>
-<script src="../Lesson 3. Header part/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/jquery/jquery-2.1.4.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 <script src="common.js"></script>
 </body>
 </html>
