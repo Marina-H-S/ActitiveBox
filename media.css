@@ -2,13 +2,23 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+.menu li {
+	font-size:14;
+	padding:0 20px;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 .tem_item {
 	margin-bottom: 30px;
+}
+.menu li {
+	
+	padding:0 10px;
+}
+header {
+	font-size: 14px;
 }
 }
 
